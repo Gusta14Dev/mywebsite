@@ -7,12 +7,15 @@ module.exports = {
             fontFamily: {
                 sans: ['Inter var', ...defaultTheme.fontFamily.sans],
             },
-            colors:{
+            colors: {
                 primary: '#1482FA',
                 secondary: '#1FE7AA',
-                dark_primary: '#081A36',
+                dark_primary: '#08234B',
                 dark_secondary: '#031726',
                 dark: '#02111C'
+            },
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
             }
         },
     },

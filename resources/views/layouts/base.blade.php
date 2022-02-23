@@ -9,6 +9,12 @@
             <title>{{ config('app.name') }}</title>
         @endif
 
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+        </style>
+
         <!-- Favicon -->
 		<link rel="shortcut icon" href="{{ url(asset('favicon.ico')) }}">
 
@@ -23,7 +29,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
 
-    <body>
+    <body class="bg-slate-50">
         @yield('body')
 
         @livewireScripts

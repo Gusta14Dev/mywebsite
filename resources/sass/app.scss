@@ -62,3 +62,5 @@ input:checked + div {
 input:checked + div svg {
     @apply block;
 }
+
+@import '~toastr/toastr';

@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'home')->name('home');
+
+Route::view('/politica-de-privacidade', 'privacy')->name('privacy');
+
+Route::view('/termos-e-condicoes', 'terms')->name('terms');

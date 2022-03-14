@@ -64,10 +64,10 @@
     </div>
     <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
         <li><a class="text-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary" href="#">Home</a></li>
-        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#">Beneficios</a></li>
-        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#">Serviços Prestados</a></li>
-        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#">Serviços de Acessoria</a></li>
-        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#">Contato</a></li>
+        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#beneficios">Beneficios</a></li>
+        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#servicos-prestados">Serviços Prestados</a></li>
+        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#contato">Contato</a></li>
+        <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#localizacao">localização</a></li>
     </ul>
 </nav>
 <div class="navbar-menu relative z-50 hidden">
@@ -97,6 +97,9 @@
                 <li class="mb-1">
                     <a class="block p-4 text-sm font-semibold text-gray-100 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contato">Contato</a>
                 </li>
+                <li class="mb-1">
+                    <a class="block p-4 text-sm font-semibold text-gray-100 hover:bg-blue-50 hover:text-blue-600 rounded" href="#localizacao">localização</a>
+                </li>
             </ul>
         </div>
         <div class="mt-auto">
@@ -107,3 +110,46 @@
         </div>
     </nav>
 </div>
+
+<script>
+    // Burger menus
+    document.addEventListener('DOMContentLoaded', function () {
+        // open
+        const burger = document.querySelectorAll('.navbar-burger');
+        const menu = document.querySelectorAll('.navbar-menu');
+
+        if (burger.length && menu.length) {
+            burger.forEach(burger_el => {
+                burger_el.addEventListener('click', function () {
+                    menu.forEach(menu_el => {
+                        menu_el.classList.toggle('hidden');
+                    });
+                });
+            });
+        }
+
+        // close
+        const close = document.querySelectorAll('.navbar-close');
+        const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+        if (close.length) {
+            close.forEach(close_el => {
+                close_el.addEventListener('click', function () {
+                    menu.forEach(menu_el => {
+                        menu_el.classList.toggle('hidden');
+                    });
+                });
+            });
+        }
+
+        if (backdrop.length) {
+            backdrop.forEach(backdrop_el => {
+                backdrop_el.addEventListener('click', function () {
+                    menu.forEach(menu_el => {
+                        menu_el.classList.toggle('hidden');
+                    });
+                });
+            });
+        }
+    });
+</script>

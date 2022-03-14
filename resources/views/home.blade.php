@@ -948,4 +948,14 @@
 </div>
 
 @include('parts.footer')
+
+<script src="./js/libraries/cleave.min.js"></script>
+<script src="./js/libraries/cleave-phone.br.js"></script>
+
+<script>
+    new Cleave('.phone', {
+        phone: true,
+        phoneRegionCode: 'BR'
+    });
+</script>
 @endsection

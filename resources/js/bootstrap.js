@@ -39,6 +39,10 @@ toastr.options = {
     "hideMethod": "fadeOut"
 }
 
+window.livewire.on('toastr', response => {
+    toastr[response['type']](response['message'], response['title']);
+});
+
 document.addEventListener('livewire:load', function () {
     window.livewire.on('toastr', response => {
         toastr[response['type']](response['message'], response['title']);

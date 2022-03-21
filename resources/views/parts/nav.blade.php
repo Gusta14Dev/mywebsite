@@ -22,7 +22,7 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <span class="font-medium text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">contato@dorcem.com.br</span>
+            <span class="font-medium text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">dorsem@documentoemordem.com.br</span>
         </p>
     </div>
     <div class="flex items-center">

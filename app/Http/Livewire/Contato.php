@@ -45,14 +45,16 @@ class Contato extends Component{
 
             $contato->save();
         } catch (\Throwable $e) {
-            $this->emit('toastr', ['type' => 'error', 'message' => 'Ocorreu um erro na hora de solicitar a reunião!', 'title' => 'Erro ao Solicitar Reunião!']);
+            $this->emit('toastr', ['type' => 'error', 'message' => $e->getMessage(), 'title' => 'Erro ao Solicitar Reunião!']);
+            return;
         }
 
         try {
             Mail::to(Config::get('mail.from.address'))
             ->send(new MailContato($this->nome, $this->email, $this->celular, $this->explicacao));
         } catch (\Throwable $th) {
-            $this->emit('toastr', ['type' => 'error', 'message' => 'Ocorreu um erro na hora de solicitar a reunião, tente novamente!', 'title' => 'Erro ao Solicitar Reunião!']);
+            $this->emit('toastr', ['type' => 'error', 'message' => $th->getMessage(), 'title' => 'Erro ao Solicitar Reunião!']);
+            return;
         }
 
         // $this->emit('toastr', ['type' => 'success', 'message' => 'Aguarde até que nós entremos em contato, para marcar a reunião!', 'title' => 'Reunião Solicitada!']);

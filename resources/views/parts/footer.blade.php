@@ -9,7 +9,7 @@
                     Endereço: Rua Clemente Martins Ré, 17 (Sala 1) - Itanhaém, SP 11740-000
                 </li>
                 <li class="text-center md:text-left mb-4">
-                    Email de contato: contato@dorsem.com.br
+                    Email de contato: dorsem@documentoemordem.com.br
                 </li>
                 <li class="text-center md:text-left ">
                     Ligue para nós: 0800 999 0123
@@ -56,7 +56,7 @@
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-gray-500 sm:tetext-white">
-            © 2022 <a href="/" class="hover:text-blue-500">Dorsem</a>. Todos os direitos reservado.
+            © 2022 <a href="/" class="hover:text-blue-500">Dorsem</a>. Todos os direitos reservados.
         </span>
         <div class="flex mt-4 space-x-6 justify-center sm:mt-0">
             <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

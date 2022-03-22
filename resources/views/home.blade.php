@@ -8,7 +8,7 @@
     <div
         class="absolute z-10 top-2/3 lg:top-1/2 left-1/2 lg:left-1/4 transform -translate-y-1/3 lg:-translate-y-1/2 -translate-x-1/2">
         <p class="text-3xl text-center lg:text-left font-extrabold text-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-primary lg:to-secondary">Com a Dorsem você</p>
-        <p class="text-lg font-light text-white w-80 md:w-96 mt-2 mb-2 p-2 sm:p-0">Economiza, ganha mais tempo e agiliza trâmites burocráticos, seja você pessoa fisica ou juridica.</p>
+        <p class="text-lg font-light text-white w-80 md:w-96 mt-2 mb-2 p-2 sm:p-0">Economiza, ganha mais tempo e agiliza trâmites burocráticos, seja você pessoa física ou jurídica.</p>
         <a class="block p-4 py-3 w-60 cursor-pointer text-center text-lg text-white font-medium bg-dark_secondary lg:bg-gradient-to-r lg:from-primary lg:to-secondary rounded mx-auto lg:mx-0" href="#contato">Marcar uma reunião</a>
     </div>
 
@@ -485,8 +485,7 @@
             </defs>
         </svg>
         <p class="font-bold text-gray-700 text-xl mt-5">Economize dinheiro</p>
-        <p class="font-light text-gray-700 text-justify my-5 px-6">Com a Dorcem você nunca mais vai perder dinheiro
-            solicitando documentos desnecessarios ou tendo que pagar para alguem fazer, nós fazemos tudo para você.</p>
+        <p class="font-light text-gray-700 text-justify my-5 px-6">Com a Dorcen você nunca mais vai perder dinheiro solicitando documentos desnecessários. Nós fazemos tudo para você.</p>
     </div>
 
     <div class="h-auto min-h-full w-72 min-w-72 flex justify-between items-center flex-col bg-white shadow-md shadow-gray-500 rounded-3xl mb-3"
@@ -556,9 +555,8 @@
                 </linearGradient>
             </defs>
         </svg>
-        <p class="font-bold text-gray-700 text-xl mt-5 text-center">Agilize os trâmites burocráticos</p>
-        <p class="font-light text-gray-700 text-justify my-5 px-6">As vezes por falta de algum documentos processos
-            burocráticos demoram mais, nós fazemos de tudo para o processo ser o mais rapido possivel.</p>
+        <p class="font-bold text-gray-700 text-xl mt-5 text-center">Agilize trâmites burocráticos</p>
+        <p class="font-light text-gray-700 text-justify my-5 px-6">Às vezes, processos burocráticos acabam demorando por falta de algum documento, aqui fazemos de tudo para que o processo seja o mais rápido possível.</p>
     </div>
 
     <div class="h-auto min-h-full w-72 min-w-72 flex justify-between items-center flex-col bg-white shadow-md shadow-gray-500 rounded-3xl mb-3"
@@ -721,8 +719,7 @@
             </defs>
         </svg>
         <p class="font-bold text-gray-700 text-xl mt-5">Ganhe tempo</p>
-        <p class="font-light text-gray-700 text-justify my-5 px-6">Aproveite o tempo com a familia, amigos e coisas
-            importantes para você. Não deixe despedicie o seu ativo mais precioso com filas e burocracia.</p>
+        <p class="font-light text-gray-700 text-justify my-5 px-6">Aproveite o tempo com a família, amigos e coisas importantes. Não desperdice seu bem mais precioso em filas resolvendo questões burocráticas.</p>
     </div>
 </div>
 
@@ -740,9 +737,7 @@
                     ASSESSORIA EXTRAJUDICIAL
                 </li>
                 <p class="mb-2 w-full text-dark font-light text-justify text-sm">
-                    São divididas entre serviços prestados para profissionais autônomos ou para as partes outorgantes do
-                    ato, para profissionais que busquem o escritório (seja o advogado, engenheiro, corretor, etc), para
-                    as partes que buscam solucionar seu caso sem precisar recorrer a via judiciária.
+                    São divididas entre serviços prestados para profissionais autônomos ou para as partes outorgantes do ato, para profissionais que busquem o escritório (seja o advogado, engenheiro, corretor, etc), para as partes que buscam solucionar seu caso sem precisar recorrer a via judiciária.
                 </p>
                 <li class="text-dark font-bold flex flex-row items-center">
                     <svg class="h-2 mr-3" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -751,10 +746,7 @@
                     ATOS NOTARIAIS
                 </li>
                 <p class="mb-2 w-full text-dark font-light text-justify text-sm">
-                    Muitas temáticas processuais podem ser resolvidas diretamente no cartório de notas, tendendo a ter
-                    maior celeridade. Neste ponto, garantimos a rapidez na solução do conflito pois a assessora possui
-                    vasta experiência com a elaboração de atos notariais e irá auxiliar o escrevente ou tabelião em tudo
-                    que viabilizar a lavratura do ato dentro de um prazo curto.
+                    Muitas temáticas processuais podem ser resolvidas diretamente no cartório de notas, tendendo a ter maior celeridade. Neste ponto, garantimos a rapidez na solução do conflito pois nossos assessores possui vasta experiência com a elaboração de atos notariais e irá auxiliar o escrevente ou tabelião em tudo que viabilizar a lavratura do ato dentro de um curto prazo.
                 </p>
                 <li class="text-dark font-bold flex flex-row items-center">
                     <svg class="h-2 mr-3" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -763,9 +755,7 @@
                     REGULARIZAÇÃO DE IMÓVEIS
                 </li>
                 <p class="w-full text-dark font-light text-justify text-sm">
-                    Nós fazemos a regularização de planta, pedido de anistia para débitos, pedido de certidões venal,
-                    cnd, atualização cadastral. aprovação de obras, indisponibilidades de ônus,e alienação, averbações
-                    de construção.
+                    Fazemos a regularização de planta, pedido de anistia para débitos, pedido de certidões venal, cnd, atualização cadastral, aprovação de obras, indisponibilidades de ônus, alienação e averbações de construção.
                 </p>
             </ul>
         </div>
@@ -905,13 +895,13 @@
                     <svg class="h-2 mr-2" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="2.5" cy="2.5" r="2.5" fill="#F7F7F7" />
                     </svg>
-                    Acessoria de engenheiros
+                    Assessoria de engenheiros
                 </li>
                 <li class="flex flex-row items-center text-lg md:text-xl font-medium">
                     <svg class="h-2 mr-2" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="2.5" cy="2.5" r="2.5" fill="#F7F7F7" />
                     </svg>
-                    Acessoria de advogados
+                    Assessoria de advogados
                 </li>
             </ul>
         </div>

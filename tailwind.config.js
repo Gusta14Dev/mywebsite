@@ -17,7 +17,7 @@ module.exports = {
             backgroundImage: {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
                 'fundo': "linear-gradient(251.08deg, rgba(31, 231, 169, 0.9) 9.21%, rgba(20, 130, 251, 0.9) 70.38%), url('/images/fundo1.jpg');",
-            }
+            },
         },
     },
     variants: {
@@ -45,5 +45,6 @@ module.exports = {
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
+        require('tailwindcss-animated')
     ],
 };

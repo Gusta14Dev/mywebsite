@@ -3,10 +3,8 @@
 @section('content')
     @include('parts.nav')
 
-    <div style="height: 700px;"
-        class="relative -mt-32 block w-full bg-gradient-radial from-dark_primary to-dark_secondary overflow-hidden">
-        <div
-            class="animate-fade absolute z-10 top-2/3 lg:top-1/2 left-1/2 lg:left-1/4 transform -translate-y-1/3 lg:-translate-y-1/2 -translate-x-1/2">
+    <div style="height: 750px;" class="relative -mt-32 block w-full bg-gradient-radial from-dark_primary to-dark_secondary overflow-hidden">
+        <div class="absolute z-10 top-2/3 lg:top-1/2 left-1/2 lg:left-1/4 transform -translate-y-1/4 lg:-translate-y-1/2 -translate-x-1/2">
             <p class="leading-none text-lg md:text-xl font-bold text-white w-80 md:w-96 p-0">Olá, me chamo</p>
             <p
                 class="leading-none text-3xl md:text-4xl text-left font-extrabold text-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-primary lg:to-secondary">
@@ -21,7 +19,7 @@
         </div>
 
 
-        <svg class="animate-fade animate-ease-out absolute z-10 top-1/4 lg:top-1/2 right-1/2 lg:right-1/4 transform lg:-translate-y-1/2 translate-x-1/2 h-72"
+        <svg class="absolute z-10 top-1/3 -translate-y-1/2 right-1/2 translate-x-1/2 lg:top-1/2 lg:right-1/4 lg:-translate-y-1/2 h-64 sm:h-72"
             viewBox="0 0 489 362" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M422.745 297.554V313.513H87.255V297.554H422.745Z" fill="#040606" />
             <path
@@ -1059,8 +1057,7 @@
         </svg>
 
 
-        <svg class="absolute top-4 md:-top-8 right-1/2 lg:right-1/4 transform translate-x-1/2" width="887"
-            height="701" viewBox="0 0 887 701" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="absolute top-4 md:-top-8 right-1/2 lg:right-1/4 transform translate-x-1/2" width="887" height="900" viewBox="0 0 887 701" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M130.207 467.923L148.124 476.809M151.707 478.587L169.625 487.473M173.208 489.251L191.125 498.137M1.04742 403.863L18.9647 412.749M22.5482 414.527L40.4654 423.413M44.0489 425.191L61.9662 434.077M65.5496 435.854L83.4669 444.741M87.0503 446.518L104.968 455.405M108.551 457.182L126.468 466.069"
                 stroke="url(#paint0_linear_131_2)" stroke-opacity="0.8" />

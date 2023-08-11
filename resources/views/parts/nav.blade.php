@@ -72,11 +72,11 @@
         </a> --}}
     </div>
 </div>
-<nav class="relative z-10 px-36 py-4 flex justify-between items-center">
+<nav class="relative z-10 px-4 md:px-36 py-4 flex justify-between items-center">
     <a class="text-3xl font-bold leading-none" href="{{ route('home') }}">
         <x-logo class="h-12"></x-logo>
     </a>
-    <div class="lg:hidden">
+    <div class="hidden">
         <button class="navbar-burger flex items-center text-blue-600 p-3">
             <svg class="block h-4 w-4 fill-white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <title>Mobile menu</title>
@@ -93,7 +93,7 @@
         <li><a class="text-lg font-medium text-gray-200 hover:text-white" href="#localizacao">localização</a></li> --}}
     </ul>
 </nav>
-<div class="navbar-menu relative z-50 hidden">
+{{-- <div class="navbar-menu relative z-50 hidden">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
     <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-dark_secondary overflow-y-auto">
         <div class="flex items-center mb-8">
@@ -139,9 +139,9 @@
             </p>
         </div>
     </nav>
-</div>
+</div> --}}
 
-<script>
+{{-- <script>
     // Burger menus
     document.addEventListener('DOMContentLoaded', function() {
         // open
@@ -182,4 +182,4 @@
             });
         }
     });
-</script>
+</script> --}}

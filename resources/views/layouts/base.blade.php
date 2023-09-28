@@ -31,7 +31,7 @@
         @yield('body')
 
         <!-- Scripts -->
-        <script src="{{ url(mix('js/app.js')) }}" defer></script>
+<!--         <script src="{{ url(mix('js/app.js')) }}" defer></script> -->
 
 <!--         @livewireScripts -->
     </body>

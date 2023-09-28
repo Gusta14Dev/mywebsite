@@ -1604,8 +1604,8 @@
 
     {{-- @include('parts.footer') --}}
 
-    <script src="./js/libraries/cleave.min.js"></script>
-    <script src="./js/libraries/cleave-phone.br.js"></script>
+<!--     <script src="./js/libraries/cleave.min.js"></script>
+    <script src="./js/libraries/cleave-phone.br.js"></script> -->
 
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script>
@@ -1629,10 +1629,10 @@
             .go();
     </script>
 
-    <script>
+<!--     <script>
         new Cleave('.phone', {
             phone: true,
             phoneRegionCode: 'BR'
         });
-    </script>
+    </script> -->
 @endsection

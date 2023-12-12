@@ -10,10 +10,12 @@
         "laravel-frontend-presets/tall": "^7.0",
         "laravel/framework": "^10.0",
         "laravel/octane": "^2.1",
-        "laravel/sanctum": "^3.2",
         "laravel/pulse": "^1.0@beta",
+        "laravel/sanctum": "^3.2",
+        "livewire/livewire": "^3.0",
         "spiral/roadrunner": "^2023.1.0",
-        "livewire/livewire": "^3.0"
+        "spiral/roadrunner-cli": "^2.5.0",
+        "spiral/roadrunner-http": "^3.0.1"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^2.0",

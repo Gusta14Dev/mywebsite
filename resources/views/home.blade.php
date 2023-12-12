@@ -3,7 +3,7 @@
 @section('content')
     @include('parts.nav')
 
-    <div style="height: 750px;" class="relative -mt-32 block w-full bg-gradient-radial from-dark_primary to-dark_secondary overflow-hidden">
+    <div style="height: 750px;" class="top-0 relative -mt-32 block w-full bg-gradient-radial from-dark_primary to-dark_secondary overflow-hidden">
         <div class="absolute z-10 top-2/3 lg:top-1/2 left-1/2 lg:left-1/4 transform -translate-y-1/4 lg:-translate-y-1/2 -translate-x-1/2">
             <p class="leading-none text-lg md:text-xl font-bold text-white w-80 md:w-96 p-0">Olá, me chamo</p>
             <p

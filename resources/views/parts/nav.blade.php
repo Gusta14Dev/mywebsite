@@ -1,4 +1,4 @@
-<div class="relative hidden sm:flex w-100 z-20 flex justify-around h-8 bg-dark opacity-70 text-white">
+<div class="top-0 relative hidden sm:flex w-100 z-20 flex justify-around h-8 bg-dark opacity-70 text-white">
     <div class="flex items-center">
         {{-- <p class="flex items-center mr-8">
             <svg class="h-3 mr-2" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

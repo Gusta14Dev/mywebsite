@@ -21,18 +21,18 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ url(mix('css/app.css')) }}">
 
-<!--         @livewireStyles -->
+        {{-- @livewireStyles --}}
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
 
-    <body class="bg-slate-50  overflow-hidden" x-data="{ open_terms: false, open_privacity: false }">
+    <body class="bg-slate-50 overflow-hidden">
         @yield('body')
 
         <!-- Scripts -->
-<!--         <script src="{{ url(mix('js/app.js')) }}" defer></script> -->
+        {{-- <script src="{{ url(mix('js/app.js')) }}" defer></script> --}}
 
-<!--         @livewireScripts -->
+        {{-- @livewireScripts --}}
     </body>
 </html>

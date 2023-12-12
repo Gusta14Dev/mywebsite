@@ -12,7 +12,7 @@
         "laravel/octane": "^2.1",
         "laravel/sanctum": "^3.2",
         "laravel/pulse": "^1.0@beta",
-        "spiral/roadrunner": "^2.8",
+        "spiral/roadrunner": "^2023.1.0",
         "livewire/livewire": "^3.0"
     },
     "require-dev": {

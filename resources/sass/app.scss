@@ -52,15 +52,15 @@ select:invalid {
  * .skew-45 { ... }
  */
 
-[x-cloak] {
-    display: none;
-}
+// [x-cloak] {
+//     display: none;
+// }
 
-input:checked + div {
-    @apply border-blue-500;
-}
-input:checked + div svg {
-    @apply block;
-}
+// input:checked + div {
+//     @apply border-blue-500;
+// }
+// input:checked + div svg {
+//     @apply block;
+// }
 
-@import '~toastr/toastr';
+// @import '~toastr/toastr';

@@ -73,7 +73,7 @@
     </div>
 </div>
 <nav class="relative z-10 px-4 md:px-36 py-4 flex justify-between items-center">
-    <a class="text-3xl font-bold leading-none" href="{{ route('home') }}">
+    <a class="text-3xl font-bold leading-none" href="{{ route('home') }}" title="Logo" alt="Logo" aria-label="Logo">
         <x-logo class="h-12"></x-logo>
     </a>
     <div class="hidden">

@@ -6,9 +6,7 @@
     <div style="height: 750px;" class="top-0 relative -mt-32 block w-full bg-gradient-radial from-dark_primary to-dark_secondary overflow-hidden">
         <div class="absolute z-10 top-2/3 lg:top-1/2 left-1/2 lg:left-1/4 transform -translate-y-1/4 lg:-translate-y-1/2 -translate-x-1/2">
             <p class="leading-none text-lg md:text-xl font-bold text-white w-80 md:w-96 p-0">Olá, me chamo</p>
-            <p
-                class="leading-none text-3xl md:text-4xl text-left font-extrabold text-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-primary lg:to-secondary">
-                Gustavo Guimarães</p>
+            <p class="leading-none text-3xl md:text-4xl text-left font-extrabold text-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-primary lg:to-secondary">Gustavo Guimarães</p>
             <p class="text-md md:text-lg text-white w-80 md:w-96 p-0">Sou Desenvolvedor
                 <span
                     class="font-extrabold text-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-primary lg:to-secondary"
